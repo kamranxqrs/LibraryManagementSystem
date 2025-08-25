@@ -1,33 +1,40 @@
-# 📚 Library Management System - Java Swing GUI
+# 📚 Library Management System (Java Swing)
 
-A beginner-friendly Java-based desktop application for managing a library's books. Built with Java Swing for the graphical interface and file handling for data persistence.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![GUI](https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+A beginner-friendly **Library Management System** built using **Java Swing**.  
+This project demonstrates **core Java concepts**, **GUI programming**, and **basic file handling**.
 
 ---
 
-✨ Features
+## 🚀 Features
 
-**Add Book**  
-→ Add new books with title, author, and quantity.  
+- **Add Book** – Add a new book to the library database.  
+- **View Books** – Display all available books in a structured format.  
+- **Issue Book** – Issue a book to a user and update the records.  
+- **Return Book** – Return an issued book and update availability.  
+- **Exit** – Close the application safely.  
 
-**View Books**  
-→ View a list of all available books.
+---
 
-**Issue Book**  
-→ Borrow a book by its title. Quantity decreases accordingly.
+## 🖥️ Tech Stack
 
-**Return Book**  
-→ Return a previously issued book. Quantity increases accordingly.
+- **Language:** Java  
+- **GUI:** Java Swing  
+- **Data Storage:** Text File (`books.txt`)  
+- **IDE Used:** VS Code / IntelliJ IDEA / Eclipse
+    
+---
 
-**Persistent Storage**  
-→ Data is saved to a `books.txt` file so nothing is lost after closing the app.
+## 🖼️ UI Preview
 
-**Clean and Colorful UI**  
-→ GUI built using Java Swing with colored buttons and organized layout.
+![Library GUI](screenshots/library-ui.png)
+
+---
+
+## ⚡ How It Works
+
+- The app uses **Swing** for the interface.
+- Book details are stored in a **text file** for persistence.
+- Each button (`Add`, `View`, `Issue`, `Return`) opens a new dialog for user interaction.
 
 ---
 
