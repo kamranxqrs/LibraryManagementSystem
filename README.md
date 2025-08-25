@@ -25,8 +25,18 @@ This project demonstrates **core Java concepts**, **GUI programming**, and **bas
 ---
 
 ## 🖼️ UI Preview
+### Home Page
+![Home Page](Home-Page.png)
+### Add Book Feature
+![Add Book](Add-Book-1.png)
+![Add Book](Add-Book-2.png)
+### View Books
+![View Books](View-Books.png)
+### Issue Book
+![Issue Book](Issue_Book.png)
+### Return Book
+![Return Book](Return-Book.png)
 
-![Library GUI](screenshots/library-ui.png)
 
 ---
 
